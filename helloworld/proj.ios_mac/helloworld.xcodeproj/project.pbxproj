@@ -48,6 +48,8 @@
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		9B6EE2D822366BB100C62460 /* DrawingCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EE2D622366BB100C62460 /* DrawingCanvas.cpp */; };
 		9B6EE2D922366BB100C62460 /* DrawingCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EE2D622366BB100C62460 /* DrawingCanvas.cpp */; };
+		9B6EE2DC2236701F00C62460 /* Lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EE2DA2236701F00C62460 /* Lobby.cpp */; };
+		9B6EE2DD2236701F00C62460 /* Lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EE2DA2236701F00C62460 /* Lobby.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -137,6 +139,8 @@
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9B6EE2D622366BB100C62460 /* DrawingCanvas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DrawingCanvas.cpp; sourceTree = "<group>"; };
 		9B6EE2D722366BB100C62460 /* DrawingCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingCanvas.h; sourceTree = "<group>"; };
+		9B6EE2DA2236701F00C62460 /* Lobby.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lobby.cpp; sourceTree = "<group>"; };
+		9B6EE2DB2236701F00C62460 /* Lobby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lobby.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -291,6 +295,8 @@
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 				9B6EE2D622366BB100C62460 /* DrawingCanvas.cpp */,
 				9B6EE2D722366BB100C62460 /* DrawingCanvas.h */,
+				9B6EE2DA2236701F00C62460 /* Lobby.cpp */,
+				9B6EE2DB2236701F00C62460 /* Lobby.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -453,6 +459,7 @@
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
 				9B6EE2D822366BB100C62460 /* DrawingCanvas.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				9B6EE2DC2236701F00C62460 /* Lobby.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
@@ -466,6 +473,7 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				9B6EE2D922366BB100C62460 /* DrawingCanvas.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				9B6EE2DD2236701F00C62460 /* Lobby.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

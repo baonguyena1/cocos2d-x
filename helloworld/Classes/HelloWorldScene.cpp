@@ -24,7 +24,7 @@
 
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
-#include "DrawingCanvas.h"
+#include "Lobby.h"
 
 USING_NS_CC;
 
@@ -49,8 +49,8 @@ bool HelloWorld::init()
     {
         return false;
     }
-    DrawingCanvas *canvas = DrawingCanvas::create();
-    this->addChild(canvas);
+    Lobby *lobby = Lobby::create();
+    this->addChild(lobby);
     return true;
 }
 
