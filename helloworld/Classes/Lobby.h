@@ -17,6 +17,8 @@ public:
 protected:
     virtual bool init();
     virtual void onEnter();
+private:
+    void setupUI();
 };
 
 #endif /* Lobby_h */

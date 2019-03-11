@@ -20,4 +20,13 @@ bool Lobby::init() {
 
 void Lobby::onEnter() {
     Node::onEnter();
+    setupUI();
+}
+
+void Lobby::setupUI() {
+    Size visibleSize = Director::getInstance()->getVisibleSize();
+    Sprite *logo = Sprite::create("doodlerLogo.png");
+    logo->setAnchorPoint(Vec2(0.5, 0.5));
+    logo->setPosition(Vec2(visibleSize.width * 0.5, visibleSize.height * 0.75));
+    this->addChild(logo);
 }
